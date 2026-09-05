@@ -119,10 +119,6 @@ Open:
 http://localhost:3000
 ```
 
-## 📸 Preview
-
-Add screenshots of the application here to showcase the UI and key features.
-
 ## 🧑‍💻 Author
 
 ### RHS Rasel
@@ -134,4 +130,4 @@ Senior Shopify Developer & E-commerce Engineer
 
 ## 📄 License
 
-This project is developed as a custom ledger application and is intended for demonstration and portfolio purposes.
+This project is developed as a custom ledger application.
