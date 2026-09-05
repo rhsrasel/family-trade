@@ -1,36 +1,137 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Family Trade
 
-## Getting Started
+A full-stack ledger and business management application designed to help manage customers, markets, companies, products, orders, and financial records in one place.
 
-First, run the development server:
+Built with **Next.js, React, MongoDB, and Tailwind CSS**, the application provides separate user and admin workflows with secure authentication and role-based access.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🔗 Preview
+
+🚀 **Live Demo:** [Family Trade Demo](https://family-trade.vercel.app/)
+
+
+## ✨ Features
+
+* 👤 User registration and authentication
+* 🔐 Admin authentication and protected routes
+* 👥 User management and approval workflow
+* 🏢 Company management
+* 📦 Product management
+* 📊 Inventory and stock management
+* 🧾 Ledger and transaction management
+* 🔑 Role-based access control
+* 🛡️ Protected admin routes
+* 📱 Responsive UI
+* ⚡ Fast and modern Next.js application
+* 🗄️ MongoDB database integration
+* ⚡ Modern and responsive Next.js application
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* Next.js
+* React
+* Tailwind CSS
+* JavaScript
+
+### Backend
+
+* Next.js API Routes
+* Node.js
+* MongoDB
+* Mongoose
+* JWT Authentication
+
+### Other Tools
+
+* Git
+* GitHub
+* pnpm
+* ESLint
+
+## 📁 Project Structure
+
+```text
+family-trade/
+├── app/
+│   ├── admin/
+│   ├── user/
+│   ├── scorer/
+│   └── api/
+├── components/
+├── models/
+├── lib/
+├── stores/
+├── public/
+└── package.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Make sure you have installed:
 
-## Learn More
+* Node.js
+* pnpm
+* MongoDB
 
-To learn more about Next.js, take a look at the following resources:
+### Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Clone the repository:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+git clone https://github.com/rhsrasel/family-trade.git
+```
 
-## Deploy on Vercel
+Navigate to the project:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+cd family-trade
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Install dependencies:
+
+```bash
+pnpm install
+```
+
+### Environment Variables
+
+Create a `.env.local` file in the root directory:
+
+```env
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+```
+
+Add any other environment variables required by the application.
+
+### Run Development Server
+
+```bash
+pnpm dev
+```
+
+Open:
+
+```text
+http://localhost:3000
+```
+
+## 📸 Preview
+
+Add screenshots of the application here to showcase the UI and key features.
+
+## 🧑‍💻 Author
+
+### RHS Rasel
+
+Senior Shopify Developer & E-commerce Engineer
+
+* GitHub: [@rhsrasel](https://github.com/rhsrasel)
+* LinkedIn: [linkedin.com/in/rhsrasel](https://www.linkedin.com/in/rhsrasel)
+
+## 📄 License
+
+This project is developed as a custom ledger application and is intended for demonstration and portfolio purposes.
