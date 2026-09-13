@@ -120,7 +120,7 @@ export default function CompanyManager({
           onClick={() => setCreating((current) => !current)}
           className="rounded-lg bg-indigo-600 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-700"
         >
-          {creating ? "Cancel" : "+ Create Company"}
+          {creating ? "Cancel" : "+ Add Company"}
         </button>
       </div>
 

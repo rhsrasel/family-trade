@@ -556,7 +556,7 @@ export default function UserManager({users: initialUsers}) {
         >
           {creating
             ? "Cancel"
-            : "+ Create User"}
+            : "+ Add User"}
         </button>
       </div>
 
