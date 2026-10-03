@@ -1,10 +1,8 @@
-// app/user/login/page.jsx
-
 "use client";
 
 import Link from "next/link";
-import {useRouter} from "next/navigation";
-import {useState} from "react";
+import { useRouter } from "next/navigation";
+import { useState } from "react";
 
 export default function UserLoginPage() {
   const router = useRouter();
@@ -46,7 +44,7 @@ export default function UserLoginPage() {
         return;
       }
 
-      router.replace("/user");
+      router.replace("/ledger");
       router.refresh();
     } catch {
       setError("Something went wrong. Please try again.");
@@ -59,13 +57,9 @@ export default function UserLoginPage() {
     <main className="flex min-h-screen items-center justify-center bg-slate-950 px-6">
       <div className="w-full max-w-md">
         <div className="mb-8 text-center">
-          <h1 className="text-3xl font-bold text-white">
-            Family Trade
-          </h1>
+          <h1 className="text-3xl font-bold text-white">Family Trade</h1>
 
-          <p className="mt-2 text-slate-400">
-            Sign in to your account
-          </p>
+          <p className="mt-2 text-slate-400">Sign in to your account</p>
         </div>
 
         <form
